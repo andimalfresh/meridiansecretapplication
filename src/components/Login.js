@@ -2,7 +2,7 @@ import React from 'react'
 
 const Login = () => {
     return(
-        <div>This is the Login Bar</div>
+        <div className='login-component'>This is the Login component</div>
     )
 }
 

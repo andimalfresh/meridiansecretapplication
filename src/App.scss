@@ -7,4 +7,34 @@
     color: black;
     background-color: beige;
     flex-direction: column;
+    .nav-bar {
+        position: fixed;
+        top:0;
+        width:100vw;
+        color:white;
+        background-color: black;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .footer-bar {
+        position: fixed;
+        bottom:0;
+        width:100vw;
+        color:white;
+        background-color: black;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+
+    }
+    .login-component {
+        height: 75%;
+        width: 90%;
+        background-color: white;
+        border-radius: 20pt;
+        display: flex;
+        justify-content: center;
+    }
 }

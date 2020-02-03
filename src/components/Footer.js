@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return(
-        <div>(c) 2020 - Pedersen Solutions</div>
+        <div className='footer-bar'>(c) 2020 - Pedersen Solutions</div>
     )
 }
 
