@@ -1,12 +1,15 @@
 import React from 'react'
 import './App.scss'
+import Nav from './components/Nav'
+import Login from './components/Login'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div> Welcome to the APP ! </div>
-      </header>
+        <Nav />
+        <Login />
+        <Footer />
     </div>
   )
 }
